@@ -76,7 +76,6 @@ function add_onkeydown()
 			}
 		}
 	}
-
 }
 
 var interval = setInterval(add_onkeydown, 300);
