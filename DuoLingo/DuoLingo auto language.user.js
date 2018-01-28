@@ -13,6 +13,8 @@ function get_key(key, lng)
 	var en_str = "qwertyuiop[]asdfghjkl;'zxcvbnm,.";
 	var ru_str = "йцукенгшщзхъфывапролджэячсмитьбю";
 
+	if (key == '<') key = ','; // lowercase do not work on this symbol
+	if (key == '>') key = '.'; // lowercase do not work on this symbol
 
 	if (lng == 'ru' && en_str.indexOf(key) !== -1)
 	{
