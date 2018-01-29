@@ -26,7 +26,6 @@ function get_key(key, lng)
 	else return key;
 }
 
-
 function keydown_filter(e){
 
 	if ((e.keyCode > 47 && e.keyCode < 91) || (e.keyCode == 219 || e.keyCode == 221 || e.keyCode == 186 || e.keyCode == 222 || e.keyCode == 188 || e.keyCode == 190)) //a-z  []  ;' ,.
