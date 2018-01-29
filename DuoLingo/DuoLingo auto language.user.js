@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name DuoLingo auto language
 // @author AlterMax
-// @version 0.1 prealpha
+// @version 0.2 prealpha
 // @description Auto change language in input fields
 // @include http*duolingo.com/skill/en*
 // @run-at document-end
